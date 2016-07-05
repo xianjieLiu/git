@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294DBA7C1A2EB36B00A61AD6 /* NSString+SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DBA7B1A2EB36B00A61AD6 /* NSString+SQL.m */; };
+		294DBA7F1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DBA7E1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.m */; };
+		294DBA851A2EB87600A61AD6 /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DBA841A2EB87600A61AD6 /* NSData+JSON.m */; };
+		294DBA921A2ED4A700A61AD6 /* NSString+PPYToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DBA911A2ED4A700A61AD6 /* NSString+PPYToolkit.m */; };
+		294DBA951A2ED5DD00A61AD6 /* NSData+PPYToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DBA941A2ED5DD00A61AD6 /* NSData+PPYToolkit.m */; };
+		294DBA9E1A2ED92A00A61AD6 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DBA9D1A2ED92A00A61AD6 /* NSString+URLEncode.m */; };
+		29ED8D651A2D9D5700996077 /* PPYToolkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29ED8D641A2D9D5700996077 /* PPYToolkit.h */; };
+		29ED8DB11A2DA7A700996077 /* NSDate+Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8D961A2DA7A700996077 /* NSDate+Day.m */; };
+		29ED8DB21A2DA7A700996077 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8D981A2DA7A700996077 /* NSString+UUID.m */; };
+		29ED8DB31A2DA7A700996077 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8D9A1A2DA7A700996077 /* NSTimer+Block.m */; };
+		29ED8DB51A2DA7A700996077 /* PPYGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DA01A2DA7A700996077 /* PPYGifView.m */; };
+		29ED8DB61A2DA7A700996077 /* PPYHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DA21A2DA7A700996077 /* PPYHorizontalTableView.m */; };
+		29ED8DB71A2DA7A700996077 /* PPYHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DA41A2DA7A700996077 /* PPYHorizontalTableViewCell.m */; };
+		29ED8DB81A2DA7A700996077 /* UIActionSheet+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DA61A2DA7A700996077 /* UIActionSheet+Block.m */; };
+		29ED8DB91A2DA7A700996077 /* UIColor+PPYToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DA81A2DA7A700996077 /* UIColor+PPYToolkit.m */; };
+		29ED8DBA1A2DA7A700996077 /* UIFont+PPYToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DAA1A2DA7A700996077 /* UIFont+PPYToolkit.m */; };
+		29ED8DBB1A2DA7A700996077 /* UIImage+PPYToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DAC1A2DA7A700996077 /* UIImage+PPYToolkit.m */; };
+		29ED8DBC1A2DA7A700996077 /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DAE1A2DA7A700996077 /* UIView+Geometry.m */; };
+		29ED8DBD1A2DA7A700996077 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DB01A2DA7A700996077 /* UIView+Snapshot.m */; };
+		29ED8DC31A2DAB8100996077 /* PPYPerformanceProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED8DC21A2DAB8100996077 /* PPYPerformanceProfiler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29ED8D5F1A2D9D5700996077 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				29ED8D651A2D9D5700996077 /* PPYToolkit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		294DBA7A1A2EB36B00A61AD6 /* NSString+SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SQL.h"; sourceTree = "<group>"; };
+		294DBA7B1A2EB36B00A61AD6 /* NSString+SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQL.m"; sourceTree = "<group>"; };
+		294DBA7D1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DefaultValue.h"; sourceTree = "<group>"; };
+		294DBA7E1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DefaultValue.m"; sourceTree = "<group>"; };
+		294DBA831A2EB87600A61AD6 /* NSData+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSON.h"; sourceTree = "<group>"; };
+		294DBA841A2EB87600A61AD6 /* NSData+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSON.m"; sourceTree = "<group>"; };
+		294DBA901A2ED4A700A61AD6 /* NSString+PPYToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PPYToolkit.h"; sourceTree = "<group>"; };
+		294DBA911A2ED4A700A61AD6 /* NSString+PPYToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPYToolkit.m"; sourceTree = "<group>"; };
+		294DBA931A2ED5DD00A61AD6 /* NSData+PPYToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+PPYToolkit.h"; sourceTree = "<group>"; };
+		294DBA941A2ED5DD00A61AD6 /* NSData+PPYToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PPYToolkit.m"; sourceTree = "<group>"; };
+		294DBA9C1A2ED92A00A61AD6 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		294DBA9D1A2ED92A00A61AD6 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		29ED8D611A2D9D5700996077 /* libPPYToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPPYToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29ED8D641A2D9D5700996077 /* PPYToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPYToolkit.h; sourceTree = "<group>"; };
+		29ED8D721A2D9D5700996077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29ED8D951A2DA7A700996077 /* NSDate+Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Day.h"; sourceTree = "<group>"; };
+		29ED8D961A2DA7A700996077 /* NSDate+Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Day.m"; sourceTree = "<group>"; };
+		29ED8D971A2DA7A700996077 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		29ED8D981A2DA7A700996077 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		29ED8D991A2DA7A700996077 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		29ED8D9A1A2DA7A700996077 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+		29ED8D9E1A2DA7A700996077 /* CGGeometry+PPYUIToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+PPYUIToolkit.h"; sourceTree = "<group>"; };
+		29ED8D9F1A2DA7A700996077 /* PPYGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPYGifView.h; sourceTree = "<group>"; };
+		29ED8DA01A2DA7A700996077 /* PPYGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPYGifView.m; sourceTree = "<group>"; };
+		29ED8DA11A2DA7A700996077 /* PPYHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPYHorizontalTableView.h; sourceTree = "<group>"; };
+		29ED8DA21A2DA7A700996077 /* PPYHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPYHorizontalTableView.m; sourceTree = "<group>"; };
+		29ED8DA31A2DA7A700996077 /* PPYHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPYHorizontalTableViewCell.h; sourceTree = "<group>"; };
+		29ED8DA41A2DA7A700996077 /* PPYHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPYHorizontalTableViewCell.m; sourceTree = "<group>"; };
+		29ED8DA51A2DA7A700996077 /* UIActionSheet+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Block.h"; sourceTree = "<group>"; };
+		29ED8DA61A2DA7A700996077 /* UIActionSheet+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Block.m"; sourceTree = "<group>"; };
+		29ED8DA71A2DA7A700996077 /* UIColor+PPYToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPYToolkit.h"; sourceTree = "<group>"; };
+		29ED8DA81A2DA7A700996077 /* UIColor+PPYToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPYToolkit.m"; sourceTree = "<group>"; };
+		29ED8DA91A2DA7A700996077 /* UIFont+PPYToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PPYToolkit.h"; sourceTree = "<group>"; };
+		29ED8DAA1A2DA7A700996077 /* UIFont+PPYToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PPYToolkit.m"; sourceTree = "<group>"; };
+		29ED8DAB1A2DA7A700996077 /* UIImage+PPYToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PPYToolkit.h"; sourceTree = "<group>"; };
+		29ED8DAC1A2DA7A700996077 /* UIImage+PPYToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PPYToolkit.m"; sourceTree = "<group>"; };
+		29ED8DAD1A2DA7A700996077 /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		29ED8DAE1A2DA7A700996077 /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+		29ED8DAF1A2DA7A700996077 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		29ED8DB01A2DA7A700996077 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		29ED8DBE1A2DAAC900996077 /* PPYFoundationToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPYFoundationToolkit.h; sourceTree = "<group>"; };
+		29ED8DC11A2DAB8100996077 /* PPYPerformanceProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPYPerformanceProfiler.h; sourceTree = "<group>"; };
+		29ED8DC21A2DAB8100996077 /* PPYPerformanceProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPYPerformanceProfiler.m; sourceTree = "<group>"; };
+		29ED8DC41A2DACEE00996077 /* PPYUIKitToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPYUIKitToolkit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29ED8D5E1A2D9D5700996077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29ED8D581A2D9D5700996077 = {
+			isa = PBXGroup;
+			children = (
+				29ED8D631A2D9D5700996077 /* PPYToolkit */,
+				29ED8D701A2D9D5700996077 /* PPYToolkitTests */,
+				29ED8D621A2D9D5700996077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29ED8D621A2D9D5700996077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8D611A2D9D5700996077 /* libPPYToolkit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29ED8D631A2D9D5700996077 /* PPYToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8D941A2DA7A700996077 /* Foundation */,
+				29ED8D9D1A2DA7A700996077 /* UIKit */,
+				29ED8D641A2D9D5700996077 /* PPYToolkit.h */,
+			);
+			path = PPYToolkit;
+			sourceTree = "<group>";
+		};
+		29ED8D701A2D9D5700996077 /* PPYToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8D711A2D9D5700996077 /* Supporting Files */,
+			);
+			path = PPYToolkitTests;
+			sourceTree = "<group>";
+		};
+		29ED8D711A2D9D5700996077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8D721A2D9D5700996077 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29ED8D941A2DA7A700996077 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8DC81A2DADBB00996077 /* Categories */,
+				29ED8DBE1A2DAAC900996077 /* PPYFoundationToolkit.h */,
+				29ED8DC11A2DAB8100996077 /* PPYPerformanceProfiler.h */,
+				29ED8DC21A2DAB8100996077 /* PPYPerformanceProfiler.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		29ED8D9D1A2DA7A700996077 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8DC71A2DADA100996077 /* Categories */,
+				29ED8D9E1A2DA7A700996077 /* CGGeometry+PPYUIToolkit.h */,
+				29ED8D9F1A2DA7A700996077 /* PPYGifView.h */,
+				29ED8DA01A2DA7A700996077 /* PPYGifView.m */,
+				29ED8DA11A2DA7A700996077 /* PPYHorizontalTableView.h */,
+				29ED8DA21A2DA7A700996077 /* PPYHorizontalTableView.m */,
+				29ED8DA31A2DA7A700996077 /* PPYHorizontalTableViewCell.h */,
+				29ED8DA41A2DA7A700996077 /* PPYHorizontalTableViewCell.m */,
+				29ED8DC41A2DACEE00996077 /* PPYUIKitToolkit.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		29ED8DC71A2DADA100996077 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				29ED8DA51A2DA7A700996077 /* UIActionSheet+Block.h */,
+				29ED8DA61A2DA7A700996077 /* UIActionSheet+Block.m */,
+				29ED8DA71A2DA7A700996077 /* UIColor+PPYToolkit.h */,
+				29ED8DA81A2DA7A700996077 /* UIColor+PPYToolkit.m */,
+				29ED8DA91A2DA7A700996077 /* UIFont+PPYToolkit.h */,
+				29ED8DAA1A2DA7A700996077 /* UIFont+PPYToolkit.m */,
+				29ED8DAB1A2DA7A700996077 /* UIImage+PPYToolkit.h */,
+				29ED8DAC1A2DA7A700996077 /* UIImage+PPYToolkit.m */,
+				29ED8DAD1A2DA7A700996077 /* UIView+Geometry.h */,
+				29ED8DAE1A2DA7A700996077 /* UIView+Geometry.m */,
+				29ED8DAF1A2DA7A700996077 /* UIView+Snapshot.h */,
+				29ED8DB01A2DA7A700996077 /* UIView+Snapshot.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		29ED8DC81A2DADBB00996077 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				294DBA9C1A2ED92A00A61AD6 /* NSString+URLEncode.h */,
+				294DBA9D1A2ED92A00A61AD6 /* NSString+URLEncode.m */,
+				294DBA7A1A2EB36B00A61AD6 /* NSString+SQL.h */,
+				294DBA7B1A2EB36B00A61AD6 /* NSString+SQL.m */,
+				29ED8D951A2DA7A700996077 /* NSDate+Day.h */,
+				29ED8D961A2DA7A700996077 /* NSDate+Day.m */,
+				29ED8D971A2DA7A700996077 /* NSString+UUID.h */,
+				29ED8D981A2DA7A700996077 /* NSString+UUID.m */,
+				29ED8D991A2DA7A700996077 /* NSTimer+Block.h */,
+				29ED8D9A1A2DA7A700996077 /* NSTimer+Block.m */,
+				294DBA7D1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.h */,
+				294DBA7E1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.m */,
+				294DBA831A2EB87600A61AD6 /* NSData+JSON.h */,
+				294DBA841A2EB87600A61AD6 /* NSData+JSON.m */,
+				294DBA901A2ED4A700A61AD6 /* NSString+PPYToolkit.h */,
+				294DBA911A2ED4A700A61AD6 /* NSString+PPYToolkit.m */,
+				294DBA931A2ED5DD00A61AD6 /* NSData+PPYToolkit.h */,
+				294DBA941A2ED5DD00A61AD6 /* NSData+PPYToolkit.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29ED8D601A2D9D5700996077 /* PPYToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29ED8D751A2D9D5700996077 /* Build configuration list for PBXNativeTarget "PPYToolkit" */;
+			buildPhases = (
+				29ED8D5D1A2D9D5700996077 /* Sources */,
+				29ED8D5E1A2D9D5700996077 /* Frameworks */,
+				29ED8D5F1A2D9D5700996077 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPYToolkit;
+			productName = PPYToolkit;
+			productReference = 29ED8D611A2D9D5700996077 /* libPPYToolkit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29ED8D591A2D9D5700996077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.papayamobile;
+				TargetAttributes = {
+					29ED8D601A2D9D5700996077 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 29ED8D5C1A2D9D5700996077 /* Build configuration list for PBXProject "PPYToolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29ED8D581A2D9D5700996077;
+			productRefGroup = 29ED8D621A2D9D5700996077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29ED8D601A2D9D5700996077 /* PPYToolkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29ED8D5D1A2D9D5700996077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294DBA921A2ED4A700A61AD6 /* NSString+PPYToolkit.m in Sources */,
+				294DBA7F1A2EB5B100A61AD6 /* NSDictionary+DefaultValue.m in Sources */,
+				29ED8DBC1A2DA7A700996077 /* UIView+Geometry.m in Sources */,
+				294DBA951A2ED5DD00A61AD6 /* NSData+PPYToolkit.m in Sources */,
+				29ED8DB91A2DA7A700996077 /* UIColor+PPYToolkit.m in Sources */,
+				29ED8DBB1A2DA7A700996077 /* UIImage+PPYToolkit.m in Sources */,
+				29ED8DB81A2DA7A700996077 /* UIActionSheet+Block.m in Sources */,
+				29ED8DB51A2DA7A700996077 /* PPYGifView.m in Sources */,
+				29ED8DBA1A2DA7A700996077 /* UIFont+PPYToolkit.m in Sources */,
+				294DBA7C1A2EB36B00A61AD6 /* NSString+SQL.m in Sources */,
+				294DBA9E1A2ED92A00A61AD6 /* NSString+URLEncode.m in Sources */,
+				29ED8DB21A2DA7A700996077 /* NSString+UUID.m in Sources */,
+				29ED8DC31A2DAB8100996077 /* PPYPerformanceProfiler.m in Sources */,
+				29ED8DBD1A2DA7A700996077 /* UIView+Snapshot.m in Sources */,
+				29ED8DB31A2DA7A700996077 /* NSTimer+Block.m in Sources */,
+				29ED8DB71A2DA7A700996077 /* PPYHorizontalTableViewCell.m in Sources */,
+				29ED8DB61A2DA7A700996077 /* PPYHorizontalTableView.m in Sources */,
+				294DBA851A2EB87600A61AD6 /* NSData+JSON.m in Sources */,
+				29ED8DB11A2DA7A700996077 /* NSDate+Day.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29ED8D731A2D9D5700996077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29ED8D741A2D9D5700996077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29ED8D761A2D9D5700996077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		29ED8D771A2D9D5700996077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29ED8D5C1A2D9D5700996077 /* Build configuration list for PBXProject "PPYToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ED8D731A2D9D5700996077 /* Debug */,
+				29ED8D741A2D9D5700996077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29ED8D751A2D9D5700996077 /* Build configuration list for PBXNativeTarget "PPYToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ED8D761A2D9D5700996077 /* Debug */,
+				29ED8D771A2D9D5700996077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29ED8D591A2D9D5700996077 /* Project object */;
+}
